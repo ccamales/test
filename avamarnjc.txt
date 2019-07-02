@@ -1,0 +1,112 @@
+
+
+admin@susnjcu01060:~/#: ssn 0.4
+Using /usr/local/avamar/var/probe.xml
+ssh -x admin@192.168.255.6  ''
+Last login: Thu May 16 14:07:21 2019 from 192.168.255.1
+*****************************************************************
+*                                                               *
+* This is an Avamar Storage Node                                *
+*                                                               *
+* Please read the documentation before performing               *
+* any administrative functions on this node.                    *
+* For help, contact EMC at 877.534.2867 (USA only) or           *
+* https://support.emc.com.                                      *
+*                                                               *
+*****************************************************************
+admin@susnjcu01065:~/>:
+admin@susnjcu01065:~/>: service ipmi restart
+service: only root can use service
+admin@susnjcu01065:~/>: sudo service ipmi restart
+Stopping all ipmi drivers: may be in use                             failed
+Starting ipmi drivers:                                               done
+
+
+
+---
+
+
+admin@susnjcu01060:~/#: ssn 0.5
+Using /usr/local/avamar/var/probe.xml
+ssh -x admin@192.168.255.7  ''
+Last login: Thu May 16 14:11:03 2019 from 192.168.255.1
+*****************************************************************
+*                                                               *
+* This is an Avamar Storage Node                                *
+*                                                               *
+* Please read the documentation before performing               *
+* any administrative functions on this node.                    *
+* For help, contact EMC at 877.534.2867 (USA only) or           *
+* https://support.emc.com.                                      *
+*                                                               *
+*****************************************************************
+admin@susnjcu01067:~/>:
+admin@susnjcu01067:~/>:
+admin@susnjcu01067:~/>: sudo service ipmi restart
+Stopping all ipmi drivers: may be in use                             failed
+Starting ipmi drivers:                                               done
+admin@susnjcu01067:~/>:
+
+
+----
+
+
+
+admin@susnjcu01060:~/#:
+admin@susnjcu01060:~/#: ssn 0.6
+Using /usr/local/avamar/var/probe.xml
+ssh -x admin@192.168.255.8  ''
+Last login: Mon Jun  3 15:58:18 2019 from 192.168.255.1
+*****************************************************************
+*                                                               *
+* This is an Avamar Storage Node                                *
+*                                                               *
+* Please read the documentation before performing               *
+* any administrative functions on this node.                    *
+* For help, contact EMC at 877.534.2867 (USA only) or           *
+* https://support.emc.com.                                      *
+*                                                               *
+*****************************************************************
+admin@susnjcu01068:~/>:
+admin@susnjcu01068:~/>:
+admin@susnjcu01068:~/>: sudo service ipmi restart
+Stopping all ipmi drivers: may be in use                             failed
+Starting ipmi drivers:                                               done
+admin@susnjcu01068:~/>:
+admin@susnjcu01068:~/>:
+admin@susnjcu01068:~/>:
+
+---
+
+
+
+admin@susnjcu01060:~/#: ssn 0.7
+Using /usr/local/avamar/var/probe.xml
+ssh -x admin@192.168.255.9  ''
+Warning: your password will expire in 5 days
+Last login: Thu May 16 13:45:32 2019 from 192.168.255.1
+*****************************************************************
+*                                                               *
+* This is an Avamar Storage Node                                *
+*                                                               *
+* Please read the documentation before performing               *
+* any administrative functions on this node.                    *
+* For help, contact EMC at 877.534.2867 (USA only) or           *
+* http://powerlink.emc.com.                                     *
+*                                                               *
+*****************************************************************
+admin@susnjcu01069:~/>:
+admin@susnjcu01069:~/>:
+admin@susnjcu01069:~/>:
+admin@susnjcu01069:~/>: sudo service ipmi restart
+Stopping all ipmi drivers: may be in use                             failed
+Starting ipmi drivers:                                               done
+admin@susnjcu01069:~/>:
+admin@susnjcu01069:~/>:
+admin@susnjcu01069:~/>:
+
+
+
+
+
+
